@@ -9,7 +9,7 @@ print(f"Hello {full_name}")
 print(f"Your favoirte food is {food}")
 print(f"Your email is: {email}")
 
-#Integers
+#Integers Are you average ordinary number without a decimal point, but if there is a case where you need to change your int to a float you can use typcasting.
 age = 18
 quantity = 3 
 num_of_customer = 13
@@ -18,7 +18,7 @@ print(f"You are {age} years old!")
 print(f"You are attempting to purhcase {quantity} cases of liquor")
 print(f"There are {num_of_customer} customers in the store currently")
 
-#float
+#float can be used when creating a integer with a decimal point 
 
 Checkings = 326.22
 Savings = 988.34
@@ -28,7 +28,7 @@ print(f"I currently have {Checkings} inside of my checking account")
 print(f"I currently have {Savings} inside of my savings account")
 print(f"I only have {Cash} in cash with me")
 
-#Boolean 
+#Boolean are used to create true and false outputs 
 
 Drexel_Student = True
 Computer_Science_Major = True
