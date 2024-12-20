@@ -1,0 +1,15 @@
+# Inputs are function that prompts a user to enter data. Which returns the entered data into a string. 
+
+full_name = input("What is your full name?: ")
+print(f"Welcome {full_name}")
+age = input ("How old are you?: ")
+print(f"Isnt it a great day to be {age}!")
+Banking = input("Where do you bank?: ")
+print(f"Well since you have {Banking} you should tap in!")
+SixTeenDigitPin = input("Please enter your sixteen digit pin 'xxxx-xxxx-xxxx-xxxx'!: ")
+print(f"You have entered in: {SixTeenDigitPin}")
+Month_Year = input("Please type in your year and month as shown 'MM/YYYY': ")
+print(f"You have enterd in: {Month_Year}")
+CVV = input("Please enter in your three digit CVV pin on the back of your card as shown 'xxx': ")
+print(f"You have entered in {CVV}")
+print(f"The information you provided for your Six Digit Pin was {SixTeenDigitPin}, your month and year was {Month_Year}, and your CVV was {CVV}")
