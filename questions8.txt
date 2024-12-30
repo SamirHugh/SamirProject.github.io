@@ -1,0 +1,44 @@
+Samir Robinson-Hugh, sdr332, Lab Section 061
+
+Q1: The variable of dx and dy are the difference in the coordinates in which dx represents the x1-x0 and dy represents y1-y0 basically like a slope formula. 
+Q2: The function that can be used to to graph would be the plotting function. 
+Q3: The three forms of a string that the setcellcolor is able take on are rgb, hexadecimal, and color names.
+Q4: The man command that can be used to get the tranquillity buttons are man button.
+Q5: The puts() command writes the string s and trailing newline to stdout
+    Floors function returns the largest integral value that is not greater than x so for floor(0.5) it would be 0
+    The sin function returns the sine of x where x is given in radians if X represents NaN, NaN will be returned.
+Q6: The code prompted me to input the x0,y0,x1,y1. What was shown was two points of the x0 and y0, then x1 and y1. 
+Q7: 
+Q8: My expected output was the same as the actual output
+Expected output:
+5         
+4         
+3       x 0 
+2  0 x      
+1         
+ 1 2 3 4 5
+Actual output:
+5         
+4         
+3       x 0 
+2  0 x      
+1         
+ 1 2 3 4 5
+ Q9: 
+ Expected output:
+5     x    
+4    0     
+3       
+2     
+1 0       
+x 1 2 3 4 5
+Actual output:
+5     x    
+4         
+3        
+2   0     
+1 0       
+x 1 2 3 4 5
+I believe that it went wrong is that in the algorithm in the part where we are labeling the slope, the slope isnt eligble to exceed 1 or else it's not graphable. 
+Q10: I have recorded (4,4)(8,6), (3,2)(12,8), and (5,5)(10,6) and since their slope is less than one they worked. (All of the slope of them were below 1 so they all worked)
+Lab8.html = https://www.cs.drexel.edu/~sdr332/lab8.html
