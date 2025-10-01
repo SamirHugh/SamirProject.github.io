@@ -1,0 +1,224 @@
+body {
+    font-family: cursive, serif;
+    font-size: 20px;
+    background-color: #f5f5f5; /* light gray background */
+    color: #000000; /* light cream color text */
+    margin: 0;
+    padding-top: 150px;
+    padding-right: 0px;
+    padding-left: 0px;
+}
+
+body, h2, h3, p, button, input {
+    font-family: Arial, Helvetica, sans-serif, serif;
+    font-optical-sizing: auto;
+    font-weight: 400; /* You can adjust this to 300 (lighter) or 700 (bold) */
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+}
+
+/* Heading Styles */
+h1 {
+    font-size: 36px;
+    color: #8E0101; /* Red heading */
+    text-align: center;
+}
+
+h2 {
+    font-size: 28px;
+    color: #F5F5F5;
+}
+
+h3 {
+    font-size: 24px;
+    color: #F5F5F5;
+}
+
+/* Paragraph Text */
+p {
+    font-size: 20px;
+    color: #000000;
+}
+
+/* Footer */
+footer {
+    position: static;
+    margin-top: 20px;
+    padding: 20 px;
+    background-color: #000;
+    color: #F5F5F5;
+    text-align: center;
+}
+.footerContent {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.title{
+    font-family: cursive;
+    font-size: 50px;
+    color: #8E0101; /* Red heading */
+    text-align: left;
+}
+
+.Banner {
+    width: 100%;
+    background-color: #9fc9f8;  
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1px 5%;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+}
+
+.SiteTitle {
+    font-size: 30px;
+    color: #F5F5F5; 
+    font-family: cursive;
+    margin-bottom: 0;
+}
+
+.Banner p {
+    font-size: 18px;
+    color: #F5F5F5;
+    margin-top: 5px;
+}
+
+.main-content {
+    margin-top: 25px; 
+    padding: 20px;
+  }
+
+/* Contact Info */
+.contact-info {
+    text-align: left;
+    min-width: 200px;
+}
+
+.contact-info p {
+    font-size: 16px;
+    margin: 3px 0;
+    color: #F5F5F5;
+}
+
+.contact-info a {
+    color: #76767a; /* Light blue links */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.contact-info a:hover {
+    text-decoration: underline;
+}
+
+header {
+    background: rgb(159, 201, 248);
+    height: 1 px;
+    width: 100%;
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 1001;
+}
+/*Author: Paulina Nguyen*/
+/*Hamburger Menu Icon*/
+label {
+    cursor: pointer;
+    height: 20px;
+    position: absolute;
+    right: 1rem;
+    top: 3rem;
+    width: 26px;
+    z-index: 1001;
+}
+
+label span {
+    background-color: #000;
+    border-radius: 2px;
+    display: block;
+    height: 3px;
+    position: absolute;
+    width: 100%;
+    transition: all 0.3s ease-in-out;
+    transform-origin: left;
+}
+
+label span:nth-child(1) {top: 0; }
+label span:nth-child(2) {top: 8px; }
+label span:nth-child(3) {top: 16px; }
+
+/*sliding navigation menu feature*/
+nav {
+    background: rgba(0, 0, 0, 0.8);
+    backdrop-filter: blur(30px);
+    height: 100vh;
+    margin-top: 70px;
+    width: 300px;
+
+    position: fixed;
+    right: -300px;
+    top: 0;
+    z-index: 1000;
+}
+
+/* nav links */
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li a {
+    color: #F5F5F5; 
+    display: block;
+    font-size: 1.25rem;
+    padding-block: 1rem;
+    padding-inline: 1rem;
+    text-decoration: none;
+}
+  
+nav li a:hover {
+    background-color: #7EACE0; 
+    color: #302513;
+}
+
+/* Show nav when checkbox is checked */
+.nav-toggle:checked ~ nav {
+    right: 0;
+}
+/*Author: Paulina Nguyen*/
+.collage {
+    column-count: 3;
+    column-gap: 16px;
+    padding: 30px; 
+    max-width: 1200px;
+    margin: auto;
+}
+
+.collage-cell {
+    width: 100%;
+    display: inline-block;
+    margin-bottom: 16px;
+    border-radius: 18px;
+    overflow: hidden;
+    background-size: cover;
+    background-position: center;
+    transition: background-image 1s ease-in-out;
+    height: 250px;
+
+    aspect-ratio: 2 / 3;
+    height: auto;
+}
+
+@media (max-width: 768px) {
+    .collage {
+      column-count: 2;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .collage {
+      column-count: 1;
+    }
+

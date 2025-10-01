@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Fashion Quiz</title>
+  <style>
+    body { font-family: sans-serif; padding: 20px; text-align: center; }
+    .question { display: none; }
+    .question.active { display: block; }
+    button { margin: 10px; padding: 10px 20px; font-size: 16px; }
+
+    button.selected {
+    background-color: #333;
+    color: #fff;
+    }
+  </style>
+</head>
+<body>
+
+  <h2>Find Your Fashion Fit</h2>
+
+  <div id="q1" class="question active">
+    <p>1. Whose clothing are you shopping for?</p>
+    <button onclick="nextQuestion(2)">Men's Clothing</button>
+    <button onclick="nextQuestion(2)">Women's Clothing</button>
+  </div>
+
+  <div id="q2" class="question">
+    <p>2. What season are you shopping for?</p>
+    <button onclick="nextQuestion(3)">Spring</button>
+    <button onclick="nextQuestion(3)">Summer</button>
+    <button onclick="nextQuestion(3)">Fall</button>
+    <button onclick="nextQuestion(3)">Winter</button>
+  </div>
+
+  <div id="q3" class="question">
+    <p>3. What kind of vibe or style are you going for?</p>
+    <button onclick="nextQuestion(4)">Casual</button>
+    <button onclick="nextQuestion(4)">Minimalist/Elegant</button>
+    <button onclick="nextQuestion(4)">Professional</button>
+    <button onclick="nextQuestion(4)">Streetwear</button>
+    <button onclick="nextQuestion(4)">Vintage</button>
+  </div>
+
+  <div id="q4" class="question">
+    <p>4. Which type of clothing are you looking for? (Select one or more)</p>
+    <button class="multi-option" onclick="toggleClothing(this, 'Tops')">Tops</button>
+    <button class="multi-option" onclick="toggleClothing(this, 'Bottoms')">Bottoms</button>
+    <button class="multi-option" onclick="toggleClothing(this, 'Accessories')">Accessories</button>
+    <button class="multi-option" onclick="toggleClothing(this, 'Jackets')">Jackets</button>
+    <br><br>
+    <button onclick="handleClothingChoices()">Next</button>
+  </div>
+  
+
+  <div id="q5a" class="question">
+    <p>5. Do you have a color in mind for jewelry?</p>
+    <button onclick="selectAnswer(this)">Gold</button>
+    <button onclick="selectAnswer(this)">Silver</button>
+    <br><br>
+    <button onclick="goToNextFromQ5a()">Next</button>
+  </div>
+  
+
+  <div id="q5b" class="question">
+    <p>5. Do you have a color in mind for clothing items?</p>
+    <button onclick="goToRecommendations()">Warm Tones</button>
+    <button onclick="goToRecommendations()">Cool Tones</button>
+    <button onclick="goToRecommendations()">Neutral Colors</button>
+    <button onclick="goToRecommendations()">Pastel Colors</button>
+  </div>
+
+  <script>
+
+    let selectedClothingItems = [];
+    let showQ5bAfterQ5a = false;
+
+    function toggleClothing(button, item) {
+      button.classList.toggle('selected');
+
+      if (selectedClothingItems.includes(item)) {
+        selectedClothingItems = selectedClothingItems.filter(i => i !== item);
+      } else {
+        selectedClothingItems.push(item);
+      }
+    }
+
+    function handleClothingChoices() {
+      document.getElementById('q4').classList.remove('active');
+
+      const hasAccessories = selectedClothingItems.includes('Accessories');
+      const moreThanOne = selectedClothingItems.length > 1;
+
+      if (hasAccessories && moreThanOne) {
+        // First show q5a, then q5b
+        showQ5bAfterQ5a = true;
+        document.getElementById('q5a').classList.add('active');
+      } else if (hasAccessories) {
+        document.getElementById('q5a').classList.add('active');
+      } else {
+        document.getElementById('q5b').classList.add('active');
+      }
+    }
+
+    function goToNextFromQ5a() {
+      document.getElementById('q5a').classList.remove('active');
+
+      if (showQ5bAfterQ5a) {
+        document.getElementById('q5b').classList.add('active');
+      } else {
+        goToRecommendations();
+      }
+    }
+
+    function goToRecommendations() {
+      window.location.href = "recommendations.html";
+    }
+
+    function selectAnswer(button) {
+      // Optional: Unselect other buttons in the same question if needed
+      const siblingButtons = button.parentElement.querySelectorAll('button');
+      siblingButtons.forEach(btn => btn.classList.remove('selected'));
+  
+      button.classList.add('selected');
+    }
+
+    function nextQuestion(num) {
+      const current = document.querySelector('.question.active');
+      if (current) current.classList.remove('active');
+      document.getElementById('q' + num).classList.add('active');
+    }
+  </script>
+
+</body>
+</html>

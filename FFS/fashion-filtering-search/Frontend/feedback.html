@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+
+    <title>Feedback Form</title>
+    <style>
+        body {
+            background-color: #fff;
+            font-family: Arial, sans-serif;
+            text-align: center;
+        }
+        h1 {
+            font-family: "Parisienne", cursive;
+            color: #091159;
+        }
+        .container {
+            width: 50%;
+            margin: auto;
+            background: rgb(216, 233, 240);
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .stars {
+            text-align: left;
+            font-size: 20px;
+            color: #333;
+        }
+        .stars span {
+            color: gold;
+            font-size: 24px;
+        }
+        label {
+            font-size: 18px;
+            display: block;
+            margin: 10px 0 5px;
+        }
+        input, textarea {
+            width: 90%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        button {
+            background-color: #070b15;
+            color: white;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #8b4513;
+        }
+    </style>
+</head>
+<body>
+
+
+    <h1>Send Feedback</h1>
+    <form action="form_submit.php" method="post">
+        <div class="container">
+            <div class="stars">
+                <p>Rate your overall experience with the website:</p>
+                <p><span>⭐⭐⭐⭐⭐</span> : Extremely Satisfied</p>
+                <p><span>⭐⭐⭐⭐</span> : Somewhat Satisfied</p>
+                <p><span>⭐⭐⭐</span> : Good Experience</p>
+                <p><span>⭐⭐</span> : Bad Experience</p>
+                <p><span>⭐</span> : Extremely Dissatisfied</p>
+            </div>
+
+            <label for="num">Your numerical feedback:</label>
+            <input type="number" id="num" placeholder="Enter your numerical feedback.." min="1" max="5" type="text" name="rating">
+
+            <label for="feedback">Send a written feedback:</label>
+            <textarea id="feedback" rows="5" placeholder="Enter your feedback here..." type="text" name="feedback"></textarea>
+
+            <button type="submit">Submit</button>
+        </div>
+    </form>
+
+    
+</body>
+</html>

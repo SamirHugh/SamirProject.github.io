@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Fashion Filtering System</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+  <link href="General.css" rel="stylesheet" type="text/css">
+  <link href="progressBar.css" rel="stylesheet" type="text/css">
+  <link href="scrollingText.css" rel="stylesheet" type="text/css">
+
+
+  <style>
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .quiz-modal {
+      display: none;
+      position: fixed;
+      top: 0; left: 0;
+      width: 100vw; height: 100vh;
+      background-color: rgba(0, 0, 0, 0.5);
+      justify-content: center;
+      align-items: center;
+      z-index: 1000;
+    }
+
+    .quiz-box {
+      background: white;
+      padding: 30px;
+      border-radius: 15px;
+      max-width: 500px;
+      width: 90%;
+      text-align: center;
+      box-shadow: 0 0 20px rgba(0,0,0,0.2);
+      position: relative;
+    }
+
+    .question { display: none; }
+    .question.active { display: block; }
+
+    .close-btn {
+      position: absolute;
+      top: 10px; right: 20px;
+      font-size: 24px;
+      cursor: pointer;
+    }
+
+    button {
+      margin: 8px;
+      padding: 10px 20px;
+      font-size: 16px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      background-color: #e0e0e0;
+    }
+
+    button:hover { background-color: #ccc; }
+    button.selected { background-color: #333; color: #fff; }
+
+    .multi-option.selected { background-color: #222; color: white; }
+
+    .open-quiz-btn {
+      margin: 40px auto;
+      display: block;
+      background-color: white;
+      color: black;
+      padding: 10px 20px;
+      font-family: 'Montserrat', sans-serif;
+      font-weight: bold;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+
+    .open-quiz-btn:hover {
+      background-color: #cfcccc;
+    }
+  </style>
+</head>
+<body>
+<!--Author: Paulina Nguyen-->
+<header>
+        <div class="ticker-container">
+          <div class="ticker-track">
+            <span class="ticker-text">Find your perfect fit in a few clicks</span>
+          </div>
+        </div>
+        <img src="fashion-questionnaire.png">
+
+        <div class="icons">
+            <ul>
+                <a href="#"><i class="fas fa-heart"></i></a> 
+                <a href="#"><i class="fas fa-shopping-bag"></i></a> 
+            </ul>
+                    
+        </div>
+
+        <div class="NavigationDropDown">
+            <input type="checkbox" id="nav-toggle" class="nav-toggle" hidden />
+            <label for="nav-toggle" class="nav-toggle-label">
+                <span></span>
+                <span></span>
+                <span></span>
+            </label>
+
+        <nav>
+            <ul>
+                <li><a href="FFS.html">Home</a></li>
+                <li><a href="About_US.html">About Us</a></li>
+                <li><a href="Contact_US.html">Contact Us</a></li>   
+            </ul>
+        </nav>
+        </div>
+    </header>
+<!--Author: Paulina Nguyen-->
+    <div class="collage"> 
+      <div class="collage-cell" id="cell1"></div>
+      <div class="collage-cell" id="cell2"></div>
+      <div class="collage-cell" id="cell3"></div>
+      <div class="collage-cell" id="cell4"></div>
+      <div class="collage-cell" id="cell5"></div>
+      <div class="collage-cell" id="cell6"></div>
+  </div>
+  <script src="collage.js"></script>
+
+  <button class="open-quiz-btn" onclick="openQuiz()">Take the Style Quiz</button>
+
+  <form id="quizForm" action="FFS.php" method="POST">
+    <div class="quiz-modal" id="quizModal">
+      <div class="quiz-box">
+        <span class="close-btn" onclick="closeQuiz()">&times;</span>
+
+     <div class="progress-bar" role="progressbar"
+             aria-valuemin="0" aria-valuemax="100" aria-valuenow="0">
+          <div class="progress-fill"></div>
+        </div>
+
+        <div id="q1" class="question active">
+          <p>1. Whose clothing are you shopping for?</p>
+          <button type="button" onclick="recordAnswer('gender', 'Men'); nextQuestion(2)">Men</button>
+          <button type="button" onclick="recordAnswer('gender', 'Women'); nextQuestion(2)">Women</button>
+        </div>
+
+        <div id="q2" class="question">
+          <p>2. What season are you shopping for?</p>
+          <button type="button" onclick="recordAnswer('season', 'Spring'); nextQuestion(3)">Spring</button>
+          <button type="button" onclick="recordAnswer('season', 'Summer'); nextQuestion(3)">Summer</button>
+          <button type="button" onclick="recordAnswer('season', 'Fall'); nextQuestion(3)">Fall</button>
+          <button type="button" onclick="recordAnswer('season', 'Winter'); nextQuestion(3)">Winter</button>
+        </div>
+
+        <div id="q3" class="question">
+          <p>3. What kind of style are you going for?</p>
+          <button type="button" onclick="recordAnswer('style', 'Casual'); nextQuestion(4)">Casual</button>
+          <button type="button" onclick="recordAnswer('style', 'Minimalist/Elegant'); nextQuestion(4)">Minimalist/Elegant</button>
+          <button type="button" onclick="recordAnswer('style', 'Professional'); nextQuestion(4)">Professional</button>
+          <button type="button" onclick="recordAnswer('style', 'Streetwear'); nextQuestion(4)">Streetwear</button>
+          <button type="button" onclick="recordAnswer('style', 'Vintage'); nextQuestion(4)">Vintage</button>
+        </div>
+
+        <div id="q4" class="question">
+          <p>4. What clothing are you looking for? (Select one or more)</p>
+          <button type="button" class="multi-option" onclick="toggleClothing(this, 'Tops')">Tops</button>
+          <button type="button" class="multi-option" onclick="toggleClothing(this, 'Bottoms')">Bottoms</button>
+          <button type="button" class="multi-option" onclick="toggleClothing(this, 'Accessories')">Accessories</button>
+          <button type="button" class="multi-option" onclick="toggleClothing(this, 'Jackets')">Jackets</button>
+          <br><br>
+          <button type="button" onclick="nextQuestion(5)">Next</button>
+        </div>
+
+        <div id="q5" class="question">
+          <p>5. Do you have a clothing color preference?</p>
+          <button type="button" onclick="recordAnswer('clothingColor', 'Warm'); finishQuiz()">Warm</button>
+          <button type="button" onclick="recordAnswer('clothingColor', 'Cool'); finishQuiz()">Cool</button>
+          <button type="button" onclick="recordAnswer('clothingColor', 'Neutral'); finishQuiz()">Neutral</button>
+        </div>
+      </div>
+    </div>
+
+    <input type="hidden" name="gender" id="genderInput">
+    <input type="hidden" name="season" id="seasonInput">
+    <input type="hidden" name="style" id="styleInput">
+    <input type="hidden" name="clothingTypes" id="clothingTypesInput">
+    <input type="hidden" name="clothingColor" id="clothingColorInput">
+  </form>
+
+  <!-- The quiz functionality script -->
+  <script> 
+    let quizAnswers = {
+      gender: null,
+      season: null,
+      style: null,
+      clothingTypes: [],
+      clothingColor: null
+    };
+
+    function recordAnswer(key, value) {
+      quizAnswers[key] = value;
+    }
+
+    function toggleClothing(button, item) {
+      button.classList.toggle('selected');
+      if (quizAnswers.clothingTypes.includes(item)) {
+        quizAnswers.clothingTypes = quizAnswers.clothingTypes.filter(i => i !== item);
+      } else {
+        quizAnswers.clothingTypes.push(item);
+      }
+    }
+
+    function nextQuestion(num) {
+      document.querySelector('.question.active').classList.remove('active');
+      document.getElementById('q' + num).classList.add('active');
+    }
+
+    function openQuiz() {
+      resetQuiz();
+      document.getElementById('quizModal').style.display = 'flex';
+    }
+
+    function closeQuiz() {
+      document.getElementById('quizModal').style.display = 'none';
+    }
+
+    function finishQuiz() {
+      document.getElementById('genderInput').value = quizAnswers.gender || '';
+      document.getElementById('seasonInput').value = quizAnswers.season || '';
+      document.getElementById('styleInput').value = quizAnswers.style || '';
+      document.getElementById('clothingTypesInput').value = quizAnswers.clothingTypes.join(', ');
+      document.getElementById('clothingColorInput').value = quizAnswers.clothingColor || '';
+      document.getElementById('quizForm').submit();
+    }
+
+    function resetQuiz() {
+      quizAnswers = {
+        gender: null,
+        season: null,
+        style: null,
+        clothingTypes: [],
+        clothingColor: null
+      };
+      document.querySelectorAll('.question').forEach(q => q.classList.remove('active'));
+      document.querySelectorAll('button.selected').forEach(b => b.classList.remove('selected'));
+      document.getElementById('q1').classList.add('active');
+    }
+  </script>
+
+<!-- Below is the progress bar which will be seen within the questionnaire as you cycle through each question. 
+ Note Fix: The progress bar now resets even after the restart button is pressed from the results page. --> 
+
+  <script src="progressBar.js"></script>
+
+<script>
+    // now that ProgressBar is on window, hook it up
+    document.addEventListener('DOMContentLoaded', function(){
+      var pb = new ProgressBar('.progress-bar', '.progress-fill');
+      var steps = document.querySelectorAll('.question');
+      var currentStep = 0;
+
+      function showStep(n){
+        steps.forEach(function(q,i){
+          q.classList.toggle('active', i===n);
+        });
+        pb.update(n);
+      }
+
+      // override the global-nextQuestion & openQuiz
+      window.nextQuestion = function(n){
+        currentStep = n - 1;
+        showStep(currentStep);
+      };
+      window.openQuiz = function(){
+        console.log('openQuiz fired');      // <-- sanity check
+        currentStep = 0;
+        document.querySelectorAll('button.selected')
+                .forEach(b => b.classList.remove('selected'));
+        resetQuiz();                        // if you still want to reset answers
+        showStep(0);
+        document.getElementById('quizModal')
+                .style.display = 'flex';
+      };
+      window.closeQuiz = function(){
+        document.getElementById('quizModal')
+                .style.display = 'none';
+      };
+
+      // init to step 0
+      showStep(0);
+    });
+  </script>
+
+
+</body>
+</html>

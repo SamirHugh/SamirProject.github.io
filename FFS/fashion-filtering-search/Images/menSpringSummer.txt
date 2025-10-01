@@ -1,0 +1,195 @@
+Spring or Summer  
+Casual, Minimalist/Elegant, Professional, Streetwear, Vintage 
+Tops, Bottoms, Accessories 
+Warm Tones, Cool Tones, Neutral Tones
+Using photo link to embed the images ex. <img src="https://example.com/path/to/image.jpg" alt="Description of image">
+
+
+SPRING ITEMS
+
+Spring, Vintage, Tops, Cool Tones ID: 1
+<img src="https://media.gq.com/photos/68128636b3fb2c1c431ba348/3:4/w_640,c_limit/plp5.jpg" alt="Spring, Vintage, Tops, Cool Tones">
+
+Spring, Streetwear, Bottoms, Warm Tones ID: 2
+<img src="https://media.gq.com/photos/67e5c0772e6ae161d4714e61/3:4/w_640,c_limit/Layer_13.jpg" alt="Spring, Streetwear, Bottoms, Warm Tones">
+
+Spring, Streetwear, Bottoms, Cool Tones ID: 3
+<img src="https://media.gq.com/photos/67ed77f278cb969986c8c579/3:4/w_640,c_limit/celine-homme-Wide-Leg-Distressed-Jeans.jpg" alt="Spring, Streetwear, Bottoms, Cool Tones">
+
+Spring, Professional, Tops, Warm Tones ID: 4
+<img src="https://media.gq.com/photos/67e5c077087c73393b829214/3:4/w_640,c_limit/Layer_16.jpg" alt="Spring, Professional, Tops, Warm Tones">
+
+Spring, Minimalis/Elegant, Tops, Warm Tones ID: 5
+<img src="https://media.gq.com/photos/67f02a22e8311668b4c38b8b/3:4/w_640,c_limit/18.jpg" alt="Spring, Minimalis/Elegant, Tops, Warm Tones">
+
+Spring, Professional, Tops, Cool Tones ID: 6 
+<img src="https://media.gq.com/photos/67e5c0745aad50493841bfe2/3:4/w_640,c_limit/Layer_2.jpg" alt="Spring, Professional, Tops, Cool Tones">
+
+Spring, Professional, Accessories, Cool Tones ID: 7 
+<img src="https://media.gq.com/photos/67f0416ef0c0e7ee2397e570/3:4/w_640,c_limit/croc-tie.jpg" alt="Spring, Professional, Accessories, Cool Tones">
+
+Spring, Professional, Accessories, Neutral Tones, Gold ID: 8 
+<img src="https://media.gq.com/photos/67ed77f678cb969986c8c57b/3:4/w_640,c_limit/tory-leather-1-Repeated-Stitch-Leather-Belt.jpg" alt="Spring, Professional, Accessories, Neutral Tones, Gold">
+
+Spring, Casual, Bottoms, Cool Tones ID: 9 
+<img src="https://media.glamour.com/photos/66f449642139916921c40ff9/3:4/w_640,c_limit/Abercrombie%20&%20Fitch%20%E2%80%9990s%20Straight%20Jeans%20.png" alt="Spring, Casual, Bottoms, Cool Tones">
+
+Spring, Minimalist/Elegant, Bottoms, Cool Tones ID: 10 
+<img src="https://media.glamour.com/photos/67e5a361d5e2fb41485ea20c/3:4/w_640,c_limit/Madewell%20Linen%20Pull-on%20Pants%20.png" alt="Spring, Minimalist/Elegant, Bottoms, Cool Tones">
+
+Spring, Vintage, Bottoms, Neutral Tones ID: 11 
+<img src="https://media.glamour.com/photos/67e5b9119f00875345c02ca8/3:4/w_640,c_limit/Adidas%20Adicolor%20Teamgeist%20Track%20Pants%20.png" alt="Spring, Vintage, Bottoms, Neutral Tones">
+
+Spring, Minimalist/Elegant, Tops, Neutral Tones ID: 12
+<img src="https://media.gq.com/photos/681286357a8a80e6d60f3d11/3:4/w_640,c_limit/plp7.jpg" alt="Spring, Minimalist/Elegant, Tops, Neutral Tones">
+
+Spring, Casual, Tops, Neutral Tones ID: 13
+<img src="https://media.gq.com/photos/68128638976a0231729ac1e4/3:4/w_640,c_limit/plp11.jpg" alt="Spring, Casual, Tops, Neutral Tones">
+
+Spring, Minimalist/Elegant, Accessories, Warm Tones/Silver ID: 14
+<img src="https://media.gq.com/photos/6812863aac6fb3271e99cf76/3:4/w_640,c_limit/plp16.jpg" alt="Spring, Minimalist/Elegant, Accessories, Warm Tones/Silver">
+
+Spring, Streetwear, Bottoms, Neutral Tones ID: 15
+<img src="https://media.gq.com/photos/67ed71cd78cb969986c8c569/3:4/w_640,c_limit/12.jpg" alt="Spring, Streetwear, Bottoms, Neutral Tones">
+
+Spring, Casual, Bottoms, Neutral Tones ID: 16 
+<img src="https://media.gq.com/photos/67ed77f240c6adae507b3b7e/3:4/w_640,c_limit/colin-meredith-Welder-Short.jpg" alt="Spring, Casual, Bottoms, Neutral Tones">
+
+Spring, Professional, Tops, Neutral Tones ID: 17 
+<img src="https://media.gq.com/photos/67ed77f540c6adae507b3b82/3:4/w_640,c_limit/uniqlo-c-Broadcloth-Oversized-Shirt.jpg" alt="Spring, Professional, Tops, Neutral Tones">
+
+Spring, Casual, Tops, Cool Tones ID: 18
+<img src="https://i.pinimg.com/474x/f0/3e/54/f03e5404c4b280fbe270e0c67434c3b9.jpg" alt="Spring, Casual, Tops, Cool Tones">
+
+Spring, Professional, Bottoms, Neutral Tones ID: 19 
+<img src="https://image.uniqlo.com/UQ/ST3/WesternCommon/imagesgoods/475596/sub/goods_475596_sub14_3x4.jpg?width=600" alt="Spring, Professional, Bottoms, Neutral Tones">
+
+Spring, Minimalist/Elegant, Bottoms. Neutral Tones ID: 20 
+<img src="https://image.uniqlo.com/UQ/ST3/WesternCommon/imagesgoods/463857/sub/goods_463857_sub14_3x4.jpg?width=600" alt="Spring, Minimalist/Elegant, Bottoms. Neutral Tones">
+
+Spring, Vintage, Tops, Warm Tones ID: 21 
+<img src="https://www.pacsun.com/dw/image/v2/AAJE_PRD/on/demandware.static/-/Sites-pacsun_storefront_catalog/default/dw6a74bfd3/product_images/0180250500433NEW_01_025.jpg?sw=800" alt="Spring, Vintage, Tops, Warm Tones">
+
+Spring, Casual, Tops, Warm Tones ID: 22
+<img src="https://www.pacsun.com/dw/image/v2/AAJE_PRD/on/demandware.static/-/Sites-pacsun_storefront_catalog/default/dw23694bb3/product_images/0097522800296NEW_00_020.jpg?sw=2000" alt="Spring, Casual, Tops, Warm Tones">
+
+Spring, Streetwear, Tops, Neutral Tones ID: 23
+<img src="https://assets.jadedldn.com/image/upload/e_sharpen:50,w_1400,c_limit/shopi///cdn/shop/files/JMS5533_F1_0325_d6c0a833-0975-4ed7-9ab6-f98f9b591eae.jpg" alt="Spring, Streetwear, Tops, Neutral Tones">
+
+
+SUMMER ITEMS 
+
+Summer, Vintage, Accessories, Warm Tones ID: 24 
+<img src="https://media.gq.com/photos/67acea188c55e267e5d5e107/3:4/w_640,c_limit/predictions!11.png" alt="Summer, Vintage, Accessories, Warm Tones">
+
+Summer, Minimalist/Elegant, Tops, Neutral Tones ID: 25 
+<img src="https://media.gq.com/photos/681286387a8a80e6d60f3d19/3:4/w_640,c_limit/plp9.jpg" alt="Summer, Minimalist/Elegant, Tops, Neutral Tones">
+
+Summer, Minimalist/Elegant, Tops, Cool Tones ID: 26
+<img src="https://media.glamour.com/photos/67e6d0b35e7dc2b99dbbd331/3:4/w_640,c_limit/Lacoste%20Short-Sleeve%20Classic%20Pique%20Polo%20Shirt.png" alt="Summer, Minimalist/Elegant, Tops, Cool Tones">
+
+Summer, Professional, Tops, Cool Tones ID: 27
+<img src="https://media.glamour.com/photos/67e59900cdab24dd84d1d877/3:4/w_640,c_limit/Madewell%20Straight-Hem%20Cotton%20Button-Up%20Shirt%20.png" alt="Summer, Professional, Tops, Cool Tones">
+
+Summer, Professional, Bottoms, Warm Tones ID: 28 
+<img src="https://media.glamour.com/photos/67e599dce76c9ed7a98d3cda/3:4/w_640,c_limit/J.Crew%20Classic%20Trouser%20in%20Canvas%20.png" alt="Summer, Professional, Bottoms, Warm Tones">
+
+Summer, Casual, Accessories, Neutral Tones ID: 29
+<img src="https://media.glamour.com/photos/67e5a1fb18b7e95bf12d8e32/3:4/w_640,c_limit/Ray-Ban%20Mega%20Wayfarer%20Sunglasses%20.png" alt="Summer, Casual, Accessories, Neutral Tones">
+
+Summer, Minimalist/Elegant, Tops, Neutral Tones ID: 30 
+<img src="https://media.glamour.com/photos/67e6d3c5e6586c22df90c58e/3:4/w_640,c_limit/Flint%20and%20Tinder%20Textured%20Button-Up%20Sweater%20Polo.png" alt="Summer, Minimalist/Elegant, Tops, Neutral Tones">
+
+Summer, Streetwear, Bottoms, Neutral Tones ID: 31 
+<img src="https://media.glamour.com/photos/67e5a3d61ed9fc6b92926a31/3:4/w_640,c_limit/OAS%20Ember%20Terry%20Shorts%20.png" alt="Summer, Streetwear, Bottoms, Neutral Tones">
+
+Summer Streetwear, Bottoms, Neutral Tones ID: 32
+<img src="https://www.pacsun.com/dw/image/v2/AAJE_PRD/on/demandware.static/-/Sites-pacsun_storefront_catalog/default/dw7b8025a6/product_images/0170604890041NEW_00_024.jpg?sw=2000" alt="Summer Streetwear, Bottoms, Neutral Tones">
+
+Summer, Streetwear, Bottoms, Cool Tones ID: 33
+<img src="https://coach.scene7.com/is/image/Coach/cr356_p9j_a0?$mobileProductV3$" alt="Summer, Streetwear, Bottoms, Cool Tones">
+
+Summer, Vintage, Tops, Cool Tones ID: 34
+<img src="https://media.glamour.com/photos/67e6d270df8a27f08e5f88cc/3:4/w_640,c_limit/Abercrombie%20&%20Fitch%20Soccer%20Jersey-Inspired%20Sweater.png" alt="Summer, Vintage, Tops, Cool Tones">
+
+Summer, Casual, Bottoms, Neutrals ID: 35
+<img src="https://media.glamour.com/photos/67e5b9b99f00875345c02cab/3:4/w_640,c_limit/Lululemon%20ABC%20WovenAir%20Pull-On%20Shorts.png" alt="Summer, Casual, Bottoms, Neutrals">
+
+Summer, Casual, Accessories, Neutral Tones ID: 36
+<img src="https://media.gq.com/photos/6812863c50c65fe5b2e65135/3:4/w_640,c_limit/plp19.jpg" alt="Summer, Casual, Accessories, Neutral Tones">
+
+Summer, Casual, Tops, Neutral Tones ID: 37
+<img src="https://media.gq.com/photos/68128635b3fb2c1c431ba346/3:4/w_640,c_limit/plp4.jpg" alt="Summer, Casual, Tops, Neutral Tones">
+
+Summer, Streetwear, Bottoms, Warm Tones ID: 38
+<img src="https://media.gq.com/photos/67ed77f294a5b12b9f0d9025/3:4/w_640,c_limit/acne-studios-Reinforced-Cotton-Twill-Cargo-Trousers.jpg" alt="Summer, Streetwear, Bottoms, Warm Tones">
+
+Summer, Professional, Bottoms, Neutral Tones ID: 39 
+<img src="https://media.gq.com/photos/67ed781b40c6adae507b3b84/3:4/w_640,c_limit/knickerboxer-Canal-Pleated-Twill-Cotton-Pant.jpg" alt="Summer, Professional, Bottoms, Neutral Tones">
+
+Summer, Minimalist/Elegant, Bottoms, Neutral Tones ID: 40
+<img src="https://media.gq.com/photos/67ed71d078cb969986c8c56d/3:4/w_640,c_limit/21.jpg" alt="Summer, Minimalist/Elegant, Bottoms, Neutral Tones">
+
+Summer, Professional, Accessories, Cool Tones ID: 41
+<img src="https://media.gq.com/photos/67ed71ce2ff801b328340c60/3:4/w_640,c_limit/17.jpg" alt="Summer, Professional, Accessories, Cool Tones">
+
+Summer, Professional, Bottoms, Cool Tones ID: 42
+<img src="https://media.gq.com/photos/67ed71cb85c4777c6b65553a/3:4/w_640,c_limit/25.jpg" alt="Summer, Professional, Bottoms, Cool Tones">
+
+Summer, Vintage, Bottoms, Neutral Tones ID: 43
+<img src="https://cdn.shopify.com/s/files/1/0603/3031/1875/files/main-square_21565b2a-27b3-4b18-859c-faeb5b66e3bf_540x.png?=75&v=1708439914" alt="Summer, Vintage, Bottoms, Neutral Tones">
+
+Summer, Casual, Tops, Cool Tones ID: 44
+<img src="https://media.pendleton-usa.com/image/upload/f_auto,q_auto,dpr_auto/w_1000//prod/images/58730Z_74406?_i=AG" alt="Summer, Casual, Tops, Cool Tones">
+
+Summer, Casual, Bottoms, Cool Tones ID: 45
+<img src="https://img.hollisterco.com/is/image/anf/KIC_328-5142-00131-300_prod1.jpg?policy=product-large" alt="Summer, Casual, Bottoms, Cool Tones">
+
+Summer, Casual, Bottoms, Warm Tones ID: 46
+<img src="https://m.media-amazon.com/images/I/61taWqy8VrL._AC_SY879_.jpg" alt="Summer, Casual, Bottoms, Warm Tones">
+
+Summer, Casual, Tops, Warm  Tones ID: 47
+<img src="https://i.pinimg.com/474x/4d/0e/50/4d0e5006c844f807cbff7fc7911e722c.jpg" alt="Summer, Casual, Tops, Warm  Tones">
+
+Summer, Minimalist/Elegant, Tops, Warm Tones ID: 48 
+<img src="https://image.uniqlo.com/UQ/ST3/us/imagesgoods/479724/item/usgoods_13_479724_3x4.jpg?width=600" alt="Summer, Minimalist/Elegant, Tops, Warm Tones">
+
+Summer, Professional, Tops, Warm Tones ID: 49 
+<img src="https://bananarepublic.gap.com/webcontent/0057/444/074/cn57444074.jpg" alt="Summer, Professional, Tops, Warm Tones">
+
+Summer, Minimalist/Elegant, Bottoms, Cool Tones ID: 50
+<img src="https://bananarepublic.gap.com/webcontent/0059/124/552/cn59124552.jpg" alt="Summer, Minimalist/Elegant, Bottoms, Cool Tones">
+
+Summer, Vintage, Tops, Neutral Tones ID: 51
+<img src="https://i.pinimg.com/736x/47/01/e3/4701e35a1245f3472368ffd5e98bf1f0.jpg" alt="Summer, Vintage, Tops, Neutral Tones">
+
+Summer, Streetwear, Tops, Neutral Tones ID: 52
+<img src="https://images.urbndata.com/is/image/UrbanOutfitters/93968196_008_b?$medium$&fit=constrain&fmt=webp&hei=1046&qlt=80&wid=698" alt="Summer, Streetwear, Tops, Neutral Tones">
+
+Summer, Vintage, Tops, Warm Tones ID: 53
+<img src="https://images.urbndata.com/is/image/UrbanOutfitters/92213644_069_d?$medium$&fit=constrain&fmt=webp&hei=1046&qlt=80&wid=698" alt="Summer, Vintage, Tops, Warm Tones">
+
+Summer, Streetwear, Tops, Neutral Tones ID: 54
+<img src="https://www.pacsun.com/dw/image/v2/AAJE_PRD/on/demandware.static/-/Sites-pacsun_storefront_catalog/default/dwb4d604db/product_images/0120522800713NEW_01_569.jpg?sw=800" alt="Summer, Streetwear, Tops, Neutral Tones">
+
+
+SPRING AND SUMMER ITEMS  
+
+Spring/Summer, Minimalist/Elegant, Bottoms, Warm Tones ID: 55
+<img src="https://bananarepublic.gap.com/webcontent/0056/296/950/cn56296950.jpg" alt="Spring/Summer, Minimalist/Elegant, Bottoms, Warm Tones">
+
+Spring/Summer, Vintage, Bottoms, Cool Tones ID: 56
+<img src="https://images.urbndata.com/is/image/UrbanOutfitters/86219003_107_d?$redesign-zoom-5x$" alt="Spring/Summer, Vintage, Bottoms, Cool Tones">
+
+Spring/Summer, Streetwear, Tops, Cool Tones ID: 57
+<img src="https://i.pinimg.com/474x/1f/6a/9a/1f6a9ad3a26238e114a019aae32f4d7c.jpg" alt="Spring/Summer, Streetwear, Tops, Cool Tones">
+
+Spring/Summer, Streetwear, Tops, Cool Tones ID: 58
+<img src="https://img.abercrombie.com/is/image/anf/KIC_118-5361-00104-203_prod1.jpg?policy=product-large" alt="Spring/Summer, Streetwear, Tops, Cool Tones">
+
+Spring/Summer, Vintage, Bottoms, Warm Tones ID: 59
+<img src="https://i.pinimg.com/736x/02/84/1a/02841adc6584e77aadf7b223c46a1bbb.jpg" alt="Spring/Summer, Vintage, Bottoms, Warm Tones">
+
+Spring/Summer, Streetwear, Tops, Warm Tones ID: 60
+<img src="https://i.pinimg.com/474x/ea/20/db/ea20db5ccda084b9bbbe33a8c5edd300.jpg" alt="Spring/Summer, Streetwear, Tops, Warm Tones"> 
+

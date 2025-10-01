@@ -1,0 +1,33 @@
+:root {
+    --pb-primary-color: #9fc9f8;
+    --pb-track-bg:      #e0e0e0;
+    --pb-height:        12px;
+    --pb-radius:        6px;
+  }
+  
+  .progress-bar {
+    width: 100%;
+    background: var(--pb-track-bg);
+    border-radius: var(--pb-radius);
+    overflow: hidden;
+    height: var(--pb-height);
+    margin-bottom: 20px;
+    position: relative;
+  }
+  
+  .progress-bar[aria-valuenow]::after {
+    content: attr(aria-valuenow) "%";
+    position: absolute;
+    top: -24px;
+    right: 0;
+    font-size: 12px;
+    color: #555;
+  }
+  
+  .progress-fill {
+    height: 100%;
+    background: var(--pb-primary-color);
+    width: 0%;
+    transition: width 0.3s ease;
+  }
+  

@@ -1,0 +1,162 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="UTF-8">   
+    <title>About Us</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link href="General.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link href="scrollingText.css" rel="stylesheet" type="text/css">
+
+    <!--Author: Paulina Nguyen-->
+    <style>
+        body {
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+            font-size: medium;
+        }
+
+        footer {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            z-index: 0;
+        }
+    /* The grid: Three equal columns that floats next to each other */
+    .column {
+        flex: 1;
+        max-width: 300px;      
+        aspect-ratio: 4 / 3;   
+        padding: 20px 15px;
+        border-radius: 25px;
+        color: white;
+        font-size: 35px;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+        transition: transform 0.3s ease;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    }
+    .column:hover {
+        transform: scale(1.03);
+    }
+  
+    .containerTab {
+        padding: 40px 24px;         
+        margin: 40px auto;  
+        clear: both; 
+        margin-top: 40px;        
+        max-width: 800px;           
+        border-radius: 20px;
+        box-sizing: border-box;
+        color: #222;
+        font-family: 'Montserrat', sans-serif;
+    }
+
+    .containerTab h2 {
+        font-size: 28px;
+        margin-bottom: 16px;
+        color: #111; 
+        font-weight: 500;
+    }
+
+    .containerTab p {
+    font-size: 20px;
+    color: #444; 
+    font-weight: 400;
+    }
+  
+    .row {
+        display: flex;
+        justify-content: center;
+        gap: 40px;
+        flex-wrap: wrap;
+        padding: 60px 0;
+    }
+  
+    .about-us-closebtn {
+        float: right;
+        color: black;
+        font-size: 35px;
+        cursor: pointer;
+    }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="ticker-container">
+            <div class="ticker-track">
+              <span class="ticker-text">Find your perfect fit in a few clicks</span>
+            </div>
+          </div>
+        <img src="fashion-questionnaire.png">
+            
+   
+        <div class="NavigationDropDown">
+            <input type="checkbox" id="nav-toggle" class="nav-toggle" hidden />
+            <label for="nav-toggle" class="nav-toggle-label">
+                <span></span>
+                <span></span>
+                <span></span>
+            </label>
+        
+        <nav>
+            <ul>
+                <li><a href="FFS.html">Home</a></li>
+                <li><a href="About_US.html">About Us</a></li>
+                <li><a href="Contact_US.html">Contact Us</a></li> 
+            </ul>
+        </nav>
+        </div>
+
+       
+    </header>
+
+    <!--Author: Paulina Nguyen --> 
+    <main> 
+        <div class="row">
+            <div class="column" onclick="openTab('box1');" style="background:black;">
+                OUR STORY
+            </div> 
+            <div class="column" onclick="openTab('box2');" style="background:black;">
+                OUR VALUES 
+            </div>
+            <div class="column" onclick="openTab('box3');" style="background:black;">
+                OUR VISION
+        </div>
+        <div id="box1" class="containerTab" style="display:none;background:rgb(159, 201, 248)">
+            <span onclick="this.parentElement.style.display='none'" class="about-us-closebtn">&times;</span>
+            <h2>Our Story</h2>
+            <p>We were tired of endless scrolling, overloaded feeds, and never truly finding the fashion inspiration that we were looking for. So we built our own solution - a sight that filters through the noise and brings you closer to clothing you want.</p>
+        </div>
+
+        <div id="box2" class="containerTab" style="display:none;background:rgb(159, 201, 248)">
+            <span onclick="this.parentElement.style.display='none'" class="about-us-closebtn">&times;</span>
+            <h2>Our Values</h2>
+            <p>We believe everyone deserves to feel stylish, regardless of where they're starting from. Whether you're defining your aesthetic for the first time or just want to refresh your look, it shouldn't feel overwhelming. We believe that fashion should be fun, freeing, and deeply personal, and that process should start with ease.</p>
+        </div>
+
+        <div id="box3" class="containerTab" style="display:none;background:rgb(159, 201, 248">
+            <span onclick="this.parentElement.style.display='none'" class="about-us-closebtn">&times;</span>
+            <h2>Our Vision</h2>
+            <p>Our vision is to make style discovery as simple as answering a few questions without the stress, endless scrolling, or pressure to follow trends. Through our quiz, we help people express themselves through fashion in a way that's entirely theirs. With just a few thoughtful clicks with your preferences you're able to find your perfect fit!</p>
+
+        </div>
+
+        <script>
+        function openTab(tabName) {
+            var i, x;
+            x = document.getElementsByClassName("containerTab");
+            for (i = 0; i < x.length; i++) {
+                x[i].style.display = "none";
+            }
+            document.getElementById(tabName).style.display = "block";
+        }
+        </script>
+
+    </main>
+
+</body>
+</html>

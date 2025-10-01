@@ -1,0 +1,191 @@
+Fall or Winter 
+Casual, Minimalist/Elegant, Professional, Streetwear, Vintage 
+Tops, Bottoms, Accessories, Jackets 
+Warm Tones, Cool Tones, Neutral Tones
+Using photo link to embed the images ex. <img src="https://example.com/path/to/image.jpg" alt="Description of image">
+
+
+WINTER ITEMS 
+
+Winter, Streetwear, Tops, Neutral Tones ID: 61 
+<img src="https://media.gq.com/photos/67ed769ff6860919e782a0a8/3:4/w_640,c_limit/tyler18.jpg" alt="Winter, Streetwear, Tops, Neutral Tones">
+
+Winter, Casual, Tops, Neutral Tones ID: 62
+<img src="https://media.gq.com/photos/67ed88e225abe54625c9b76d/3:4/w_640,c_limit/17.jpg" alt="Winter, Casual, Tops, Neutral Tones">
+
+Winter, Minimalist/Elegant/Professional, Accessories, Silver/Neutral Tones ID: 63
+<img src="https://media.gq.com/photos/67ed88e6e440932ec96b9989/3:4/w_640,c_limit/20.jpg" alt="Winter, Minimalist/Elegant/Professional, Accessories, Silver/Neutral Tones">
+
+Winter, Vintage, Accessories, Neutral Tones ID: 64
+<img src="https://media.gq.com/photos/67ed88e6481c618d7918b3ca/3:4/w_640,c_limit/21.jpg" alt="Winter, Vintage, Accessories, Neutral Tones">
+
+Winter, Professional, Bottoms, Neutral Tones ID: 65
+<img src="https://media.gq.com/photos/67ed76a140c6adae507b3b7a/3:4/w_640,c_limit/tyler8.jpg" alt="Winter, Professional, Bottoms, Neutral Tones">
+
+Winter, Professional, Accessories, Warm Tones ID: 66
+<img src="https://media.gq.com/photos/67ed77f45b7f414fe3be7281/3:4/w_640,c_limit/dragon-diffusion-Santa-Croce-Big-Tote.jpg" alt="Winter, Professional, Accessories, Warm Tones">
+
+Winter, Streetwear/Vintage, Jackets, Neutral Tones ID: 67
+<img src="https://media.gq.com/photos/67ed71cb2ff801b328340c5e/3:4/w_640,c_limit/23.jpg" alt="Winter, Streetwear/Vintage, Jackets, Neutral Tones">
+
+Winter/Fall, Professional/Vintage, Accessories, Neutral Tones ID: 68
+<img src="https://media.gq.com/photos/67ed71ce5b7f414fe3be7270/3:4/w_640,c_limit/14.jpg" alt="Winter/Fall, Professional/Vintage, Accessories, Neutral Tones">
+
+Winter, Minimalist/Elegant/Professional, Tops, Neutral Tones ID: 69
+<img src="https://media.gq.com/photos/67ed71cd40c6adae507b3b72/3:4/w_640,c_limit/13.jpg" alt="Winter, Minimalist/Elegant/Professional, Tops, Neutral Tones">
+
+Winter, Minimalist/Elegant, Tops, Cool Tones ID: 70
+<img src="https://www.mrporter.com/variants/images/1647597343977241/in/w1500_q60.jpg" alt="Winter, Minimalist/Elegant, Tops, Cool Tones">
+
+Winter, Minimalist/Elegant/Professional, Accessories, Silver ID: 71
+<img src="https://media.gq.com/photos/67f033aae8311668b4c38b93/3:4/w_640,c_limit/shinola.jpg" alt="Winter, Minimalist/Elegant/Professional, Accessories, Silver">
+
+Winter, Vintage, Tops, Neutral Tones ID: 72
+<img src="https://media.gq.com/photos/6769b74e5309986e328355a3/3:4/w_640,c_limit/Layer_23.jpg" alt="Winter, Vintage, Tops, Neutral Tones">
+
+Winter, Streetwear, Accessories, Silver ID: 73
+<img src="https://media.gq.com/photos/6769b750d9f06f4f37d1e52f/3:4/w_640,c_limit/Layer_15.jpg" alt="Winter, Streetwear, Accessories, Silver">
+
+Winter, Casual, Bottoms, Cool Tones ID: 74
+<img src="https://media.gq.com/photos/67f030a715534c255105bf12/3:4/w_640,c_limit/23.jpg" alt="Winter, Casual, Bottoms, Cool Tones">
+
+Winter, Casual, Bottoms, Neutral Tones ID: 75
+<img src="https://media.gq.com/photos/67acee56d26f6b832cdb5395/3:4/w_640,c_limit/preds!4.png" alt="Winter, Casual, Bottoms, Neutral Tones">
+
+Winter, Streetwear/Casual, Bottoms, Neutral Tones ID: 76
+<img src="https://media.gq.com/photos/67f032514cb1812198abcaf1/3:4/w_640,c_limit/sweats1.jpg" alt="Winter, Streetwear/Casual, Bottoms, Neutral Tones">
+
+Winter, Minimalist/Elegant, Accessories, Cool Tones ID: 77
+<img src="https://media.gq.com/photos/679bdc2f3dfc387cbc969b76/3:4/w_640,c_limit/skullbeanie!01304.png" alt="Winter, Minimalist/Elegant, Accessories, Cool Tones">
+
+Winter, Streetwear, Accessories, Neutral Tones ID: 78
+<img src="https://media.gq.com/photos/679bdc2e72e6acb26176984b/3:4/w_640,c_limit/skullbeanie!01301.png" alt="Winter, Streetwear, Accessories, Neutral Tones">
+
+Winter, Streetwear, Accessories, Gold ID: 79
+<img src="https://media.gq.com/photos/67acea183bccdc9044fc87eb/3:4/w_640,c_limit/predictions!10.png" alt="Winter, Streetwear, Accessories, Gold">
+
+Winter, Minimalist/Elegant, Tops, Neutral Tones ID: 80
+<img src="https://media.gq.com/photos/6769bd2114f22ed39caec4c4/3:4/w_640,c_limit/Layer_21-001.jpg" alt="Winter, Minimalist/Elegant, Tops, Neutral Tones">
+
+Winter, Professional, Accessories, Neutral Tones ID: 81
+<img src="https://media.gq.com/photos/67f02a216a548ccfcf1cb299/3:4/w_640,c_limit/12.jpg" alt="Winter, Professional, Accessories, Neutral Tones">
+
+Winter, Casual, Jackets, Cool Tones ID: 82
+<img src="https://wornwear.patagonia.com/cdn/shop/files/wcx7xxcvnryqsx4flr4l.jpg?v=1724161657&width=1346" alt="Winter, Casual, Jackets, Cool Tones">
+
+Winter, Vintage, Jackets, Cool Tones ID: 83
+<img src="https://img.abercrombie.com/is/image/anf/KIC_132-4055-00101-378_prod1.jpg?policy=product-large" alt="Winter, Vintage, Jackets, Cool Tones">
+
+Winter, Minimalist/Elegant, Tops, Warm Tones ID: 84
+<img src="https://i.pinimg.com/736x/38/9b/8a/389b8a87018e5cad70f6fcd174bbcafc.jpg" alt="Winter, Minimalist/Elegant, Tops, Warm Tones">
+
+Winter, Minimalist/Elegant, Tops, Cool Tones ID: 85
+<img src="https://cdn.wconcept.com/products/resize/632x843/7202301/47/720230147_1.png" alt="Winter, Minimalist/Elegant, Tops, Cool Tones">
+
+Winter, Vintage, Tops, Cool Tones ID: 86
+<img src="https://www.aelfriceden.com/cdn/shop/files/1_7_16254923-553f-49e5-8ac8-38f8514a8a5b.jpg?v=1726866883&width=1000" alt="Winter, Vintage, Tops, Cool Tones">
+
+Winter, Casual, Tops, Neutral Tones ID: 87
+<img src="https://m.media-amazon.com/images/I/71Q00XUXUgL._AC_SY879_.jpg" alt="Winter, Casual, Tops, Neutral Tones">
+
+Winter, Streetwear, Tops, Warm Tones ID: 88
+<img src="https://assets.vans.com/images/t_img/c_fill,g_center,f_auto,h_573,w_458,e_unsharp_mask:100/dpr_2.0/v1741213293/VN000M2Y0E0-FLATLAY/MTE-Goshawk-Long-Sleeve-TShirt.png" alt="Winter, Streetwear, Tops, Warm Tones">
+
+Winter, Streetwear, Tops, Cool Tones ID: 89
+<img src="https://m.media-amazon.com/images/I/61CInv2vLIL._AC_SX679_.jpg" alt="Winter, Streetwear, Tops, Cool Tones">
+
+Winter, Streetwear, Bottoms, Cool Tones ID: 90
+<img src="https://realtakai.com/cdn/shop/files/O1CN01bzkwDe1r3OxmcaOSF__1124265575.jpg?v=1702529514" alt="Winter, Streetwear, Bottoms, Cool Tones">
+
+Winter, Minimalist/Elegant, Bottoms, Neutral Tones ID: 91
+<img src="https://i.pinimg.com/736x/d3/55/51/d35551438767dbb2619d89c2c65a07b9.jpg" alt="Winter, Minimalist/Elegant, Bottoms, Neutral Tones">
+
+Winter, Minimalist/Elegant, Bottoms, Cool Tones ID: 92
+<img src="https://i.pinimg.com/474x/bc/b6/d4/bcb6d4aaecc8795c87ed03d257cce1d8.jpg" alt="Winter, Minimalist/Elegant, Bottoms, Cool Tones">
+
+Winter, Minimalist/Elegant, Bottoms, Warm Tones ID: 93
+<img src="https://i.pinimg.com/736x/6a/b0/ea/6ab0eaf3f03d40f814aa685f16c56748.jpg" alt="Winter, Minimalist/Elegant, Bottoms, Warm Tones">
+
+
+FALL ITEMS 
+
+Fall, Professional/Vintage, Tops, Neutral Tones ID: 94
+<img src="https://media.gq.com/photos/67ed88e8481c618d7918b3cd/3:4/w_640,c_limit/11.jpg" alt="Fall, Professional/Vintage, Tops, Neutral Tones">
+
+Fall, Vintage, Tops, Warm Tones ID: 95
+<img src="https://media.gq.com/photos/67ed76a25ca1270094e0e159/3:4/w_640,c_limit/tyler6.jpg" alt="Fall, Vintage, Tops, Warm Tones">
+
+Fall, Casual, Tops, Warm Tones ID: 96
+<img src="https://media.gq.com/photos/67ed71cd5b7f414fe3be726d/3:4/w_640,c_limit/8.jpg" alt="Fall, Casual, Tops, Warm Tones">
+
+Fall, Minimalist/Elegant, Bottoms, Cool Tones ID: 97
+<img src="https://media.gq.com/photos/6769bd214ca4459fbf8cca69/3:4/w_640,c_limit/Layer_14-001.jpg" alt="Fall, Minimalist/Elegant, Bottoms, Cool Tones">
+
+Fall, Casual, Bottoms, Cool Tones ID: 98
+<img src="https://media.gq.com/photos/67ace8299019d5c63eab25a9/3:4/w_640,c_limit/predictions3!.png" alt="Fall, Casual, Bottoms, Cool Tones">
+
+Fall, Vintage, Bottoms, Neutral Tones ID: 99
+<img src="https://media.gq.com/photos/67ace79114ae45e0ace6c8cc/3:4/w_640,c_limit/70s%20Cut%20Bootcut%20Jeans!.png" alt="Fall, Vintage, Bottoms, Neutral Tones">
+
+Fall, Streetwear, Bottoms, Cool Tones ID: 100
+<img src="https://media.gq.com/photos/67ace81e8c55e267e5d5e103/3:4/w_640,c_limit/predictions1!.png" alt="Fall, Streetwear, Bottoms, Cool Tones">
+
+Fall, Casual, Accessories, Neutral Tones ID: 101
+<img src="https://media.gq.com/photos/67f02a210531875e3227fc8a/3:4/w_640,c_limit/13.jpg" alt="Fall, Casual, Accessories, Neutral Tones">
+
+Fall, Vintage, Jackets, Cool Tones ID: 102
+​<img src="​https://media.gq.com/photos/67f02a1f5f6eceff7577f4d3/3:4/w_640,c_limit/6.jpg" alt="Fall, Vintage, Jackets, Cool Tones">
+
+Fall, Streetwear, Bottoms, Warm Tones ID: 103
+<img src="https://img.hollisterco.com/is/image/anf/KIC_330-4180-00129-380_prod1.jpg?policy=product-large" alt="Fall, Streetwear, Bottoms, Warm Tones">
+
+Fall, Professional, Tops, Warm Tones ID: 104
+<img src="https://image.uniqlo.com/UQ/ST3/WesternCommon/imagesgoods/462921/sub/goods_462921_sub14_3x4.jpg?width=400" alt="Fall, Professional, Tops, Warm Tones">
+
+Fall, Vintage, Tops, Warm Tones ID: 105
+<img src="https://cdn.shopify.com/s/files/1/0123/5065/2473/files/BM13063.804GBGPL_GOLDEN-BROWN-GUN-CLUB-CHECK-WOOL-PLAID-CPO-JACKET.jpg?v=1694547720&format=webp&width=1200&height=1200" alt="Fall, Vintage, Tops, Warm Tones">
+
+Fall, Casual, Tops, Cool Tones ID: 106
+<img src="https://www.junkfoodclothing.com/cdn/shop/products/12mlk428_outerspace_1_750x.jpg?v=1624495949" alt="Fall, Casual, Tops, Cool Tones">
+
+Fall, Casual, Tops, Neutral Tones ID: 107
+<img src="https://i.pinimg.com/736x/3b/74/0b/3b740bfc23ab4fbc56bbe372bd580f1d.jpg" alt="Fall, Casual, Tops, Neutral Tones">
+
+Fall, Professional, Tops, Cool Tones ID: 108
+<img src="https://i.pinimg.com/736x/61/fa/d4/61fad49648142589594a046875db610a.jpg" alt="Fall, Professional, Tops, Cool Tones">
+
+Fall, Vintage, Bottoms, Warm Tones ID: 109
+<img src="https://m.media-amazon.com/images/I/71PIvsJRX8L._AC_SY879_.jpg" alt="Fall, Vintage, Bottoms, Warm Tones">
+
+Fall, Casual, Accessories, Warm Tones ID: 110
+<img src="https://coach.scene7.com/is/image/Coach/cu824_t7j_a0?$mobileProductV3$" alt="Fall, Casual, Accessories, Warm Tones">
+
+
+FALL AND WINTER ITEMS 
+
+Fall/Winter, Professional/Vintage, Accessories, Gold/Warm Tones ID: 111
+<img src="https://media.gq.com/photos/67ed77f678cb969986c8c57b/3:4/w_640,c_limit/tory-leather-1-Repeated-Stitch-Leather-Belt.jpg" alt="Fall/Winter, Professional/Vintage, Accessories, Gold/Warm Tones">
+
+Fall/Winter, Vintage, Accessories, Gold ID: 112
+<img src="https://media.glamour.com/photos/672a681fb2787fa7c5c95811/3:4/w_640,c_limit/Gucci%20Interlocking%2018K%20Chain%20Bracelet%20.png" alt="Fall/Winter, Vintage, Accessories, Gold">
+
+Fall/Winter, Minimalist/Elegant/Professional, Tops, Warm Tones ID: 113
+<img src="https://media.glamour.com/photos/67e5a2ed1ed9fc6b92926a2f/3:4/w_640,c_limit/J.Crew%201988%20Rollneck%20Sweater%20.png" alt="Fall/Winter, Minimalist/Elegant/Professional, Tops, Warm Tones">
+
+Fall/Winter, Professional/Vintage, Accessories, Gold ID: 114
+<img src="https://media.gq.com/photos/67a51084cd1cb1e2d7a22859/3:4/w_640,c_limit/Layer_1-001.jpg" alt="Fall/Winter, Professional/Vintage, Accessories, Gold">
+
+Fall/Winter, Casual, Bottoms, Cool Tones ID: 115
+<img src="https://media.gq.com/photos/6769bd1ed9f06f4f37d1e533/3:4/w_640,c_limit/Layer_15-001.jpg" alt="Fall/Winter, Casual, Bottoms, Cool Tones">
+
+Fall/Winter, Streetwear, Jackets, Warm Tones ID: 116
+<img src="https://img.hollisterco.com/is/image/anf/KIC_332-5939-00129-410_prod1.jpg?policy=product-large" alt="Fall/Winter, Streetwear, Jackets, Warm Tones">
+
+Fall/Winter, Minimalist/Elegant, Jackets, Neutral Tones ID: 117
+<img src="https://oobebrand.com/cdn/shop/files/ORMT11387-204-A01.jpg?v=1725587518&width=1200" alt="Fall/Winter, Minimalist/Elegant, Jackets, Neutral Tones">
+
+Fall/Winter, Minimalist/Elegant, Tops, Neutral Tones ID: 118
+<img src="https://cdni.llbean.net/is/image/wim/514892_459_41?hei=1092&wid=950&resMode=sharp2&defaultImage=llbprod/514892_459_41" alt="Fall/Winter, Minimalist/Elegant, Tops, Neutral Tones">
+
+
+

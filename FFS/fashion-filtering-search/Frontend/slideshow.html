@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Right-Side Centered Portrait Slideshow</title>
+    <style>
+        /* Ensure the body takes full height */
+        body {
+            margin: 0;
+            height: 100vh;
+            display: flex;
+            justify-content: flex-end; /* Moves slideshow to the right */
+            align-items: center; /* Centers it vertically */
+            padding-right: 10px; /* Adjust spacing from the right edge */
+            background-color: #f4f4f4;
+        }
+
+        /* Slideshow container */
+        .slideshow-container {
+            width: 500px; /* Portrait width */
+            height: 600px; /* Portrait height */
+            overflow: hidden;
+            position: relative;
+            border-radius: 0px;
+        }
+
+        /* Image styles */
+        .slideshow-container img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover; /* Ensures images fill the container properly */
+            position: absolute;
+            opacity: 0;
+            transition: opacity 1s ease-in-out;
+        }
+
+        /* Show only the active image */
+        .slideshow-container img.active {
+            opacity: 1;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="slideshow-container">
+        <img src="https://image.uniqlo.com/UQ/ST3/us/imagesgoods/424873/item/usgoods_52_424873_3x4.jpg" class="active" alt="Image 1">
+        <img src="https://image.uniqlo.com/UQ/ST3/us/imagesgoods/475819/item/usgoods_03_475819_3x4.jpg" alt="Image 2">
+        <img src="https://image.uniqlo.com/UQ/ST3/us/imagesgoods/454315/item/usgoods_69_454315_3x4.jpg" alt="Image 3">
+        <img src="https://image.uniqlo.com/UQ/ST3/us/imagesgoods/476193/item/usgoods_53_476193_3x4.jpg" alt="Image 4">
+    </div>
+
+    <script>
+        let images = document.querySelectorAll(".slideshow-container img");
+        let currentIndex = 0;
+
+        function changeImage() {
+            images[currentIndex].classList.remove("active");
+            currentIndex = (currentIndex + 1) % images.length;
+            images[currentIndex].classList.add("active");
+        }
+
+        setInterval(changeImage, 3000); // Change every 3 seconds
+    </script>
+
+</body>
+</html>
